@@ -13,7 +13,7 @@ from setuptools import find_packages, setup, Command
 
 # Package meta-data.
 NAME = 'XSDreg'
-DESCRIPTION = 'A small library that returns a regular expression for a XML Datatype.'
+DESCRIPTION = 'A simple library that returns regular expressions XML Schema Definitions.'
 URL = 'https://github.com/aksw/XSDreg'
 EMAIL = 'radtke@infai.org'
 AUTHOR = 'Fabian Niehoff, Norman Radtke'
