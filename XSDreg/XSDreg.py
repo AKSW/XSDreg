@@ -92,20 +92,20 @@ class XSDreg:
                     str(self.xsd.duration) : self.durationRegex,
                     str(self.xsd.yearMonthDuration) : self.yearMonthDurationRegex,
                     str(self.xsd.dayTimeDuration) : self.dayTimeDurationRegex,
-                    str(self.xsd.byte) : self.byteRegex
-                    str(self.xsd.short) : self.shortRegex
-                    str(self.xsd.int) : self.intRegex
-                    str(self.xsd.long) : self.longRegex
-                    str(self.xsd.unsignedByte) : self.unsignedByteRegex
-                    str(self.xsd.unsignedShort) : self.unsignedShortRegex
-                    str(self.xsd.unsignedInt) : self.unsignedIntRegex
-                    str(self.xsd.unsignedLong) : self.unsignedLongRegex
-                    str(self.xsd.positiveInteger) : self.positiveIntegerRegex
-                    str(self.xsd.nonNegativeInteger) : self.nonNegativeIntegerRegex
-                    str(self.xsd.negativeInteger) : self.negativeIntegerRegex
-                    str(self.xsd.nonPositiveInteger) : self.nonPositiveIntegerRegex
-                    str(self.xsd.hexBinary) : self.hexBinaryRegex
-                    str(self.xsd.base64BinaryRegex) : self.base64BinaryRegex
+                    str(self.xsd.byte) : self.byteRegex,
+                    str(self.xsd.short) : self.shortRegex,
+                    str(self.xsd.int) : self.intRegex,
+                    str(self.xsd.long) : self.longRegex,
+                    str(self.xsd.unsignedByte) : self.unsignedByteRegex,
+                    str(self.xsd.unsignedShort) : self.unsignedShortRegex,
+                    str(self.xsd.unsignedInt) : self.unsignedIntRegex,
+                    str(self.xsd.unsignedLong) : self.unsignedLongRegex,
+                    str(self.xsd.positiveInteger) : self.positiveIntegerRegex,
+                    str(self.xsd.nonNegativeInteger) : self.nonNegativeIntegerRegex,
+                    str(self.xsd.negativeInteger) : self.negativeIntegerRegex,
+                    str(self.xsd.nonPositiveInteger) : self.nonPositiveIntegerRegex,
+                    str(self.xsd.hexBinary) : self.hexBinaryRegex,
+                    str(self.xsd.base64BinaryRegex) : self.base64BinaryRegex,
                }
 
     def getRegex(self, xsdURI):
