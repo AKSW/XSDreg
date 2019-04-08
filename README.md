@@ -1,2 +1,2 @@
 # XSDreg
-A simple service that returns regular expressions for XML Schema Definitions
+A simple library that returns regular expressions for XML Schema Definitions
